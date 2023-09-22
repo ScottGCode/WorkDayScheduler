@@ -44,6 +44,40 @@ saveBtn.on("click", function(e) {
 
 });
 
+function init() {
+    nineAmText.text(localStorage.getItem("hour0"));
+    tenAmText.text(localStorage.getItem("hour1"));
+    elevenAmText.text(localStorage.getItem("hour2"));
+    twelvePmText.text(localStorage.getItem("hour3"));
+    onePmText.text(localStorage.getItem("hour4"));
+    twoPmText.text(localStorage.getItem("hour5"));
+    threePmText.text(localStorage.getItem("hour6"));
+    fourPmText.text(localStorage.getItem("hour7"));
+    fivePmText.text(localStorage.getItem("hour8"));
+};
+
+init()
+
+var currentHour = dayjs().format('h');
+
+for (var i = 0; i < timeBlock.length; i++){
+    if (timeBlock[i].dataset.time == currentHour) {
+        timeBlock[i].classList.remove("past");
+        timeBlock[i].classList.remove("future");
+        timeBlock[i].classList.add("present");
+    };
+    if (timeBlock[i].dataset.time > currentHour) {
+        timeBlock[i].classList.remove("past");
+        timeBlock[i].classList.remove("present");
+        timeBlock[i].classList.add("future");
+    };
+    if (timeBlock[i].dataset.time < currentHour) {
+        timeBlock[i].classList.remove("present");
+        timeBlock[i].classList.remove("future");
+        timeBlock[i].classList.add("past");
+    }
+    };
+
 
 
 // Wrap all code that interacts with the DOM in a call to jQuery to ensure that
