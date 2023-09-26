@@ -6,8 +6,8 @@ I wanted to create a simple way to plan out my work day using a daily planner to
 
 ## Installation
 
-ADD LINKS HERE!!
-GitHub link: https://github.com/ScottGCode/WorkDayScheduler
+- Deployed application link: https://scottgcode.github.io/WorkDayScheduler/
+- GitHub link: https://github.com/ScottGCode/WorkDayScheduler
 
 This application will install and operate directly in your browser. Simply deploy the link above. Please click on the github link to view the code. Open index.html to view the HTML. Open styles.css to view the CSS. Open the script.js file to view the JavaScript used for this application.
 
@@ -21,7 +21,9 @@ Click the link above to view the deployed application. It will open the webpage 
 
 University of Utah Coding Bootcamp Instructors and Teaching Assistants. W3 Schools. MDN Web Docs. jQuery documentation. Bootstrap documentation. Youtube Tutorials.
 
-https://www.youtube.com/playlist?list=PL0eyrZgxdwhy7byLHsVkuhtRV_IpoJU7n
+jQuery tutorial:
+
+- https://www.youtube.com/playlist?list=PL0eyrZgxdwhy7byLHsVkuhtRV_IpoJU7n
 
 ## License
 
