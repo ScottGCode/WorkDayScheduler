@@ -2,7 +2,7 @@
 var currentDay = dayjs().format('dddd, MMMM D; hh:mm a'); 
 $('#currentDay').text(currentDay);
 
-//Declare variables to be used.
+//Assiging variables to be used for DOM events with jQuery id selector. 
 var nineAmText = $("#hour-0");
 var tenAmText = $("#hour-1");
 var elevenAmText = $("#hour-2");
@@ -15,10 +15,10 @@ var fivePmText = $("#hour-8");
 var saveMessage = $("#message");
 var timeBlock = $(".time-block");
 
-// Variable for save button on a click event to store textarea value to local storage.
+// Assiging save button variable with jQuery id selector. 
 var saveBtn = $(".saveBtn"); 
 
-//Save values on a click to local storage and deploy save message.
+//jQuery DOM event. Save values on a click using local storage and deploy save message.
 saveBtn.on("click", function(e) {
     e.preventDefault();
     saveMessage.html("🔥 Event saved with <code>localStorage</code> 🔥");
@@ -44,7 +44,7 @@ saveBtn.on("click", function(e) {
 
 });
 
-//Place all values from localStorage to webpage when the page reloads.
+//A function to print all values from localStorage to webpage when the page reloads or is revisited. 
 function init() {
     nineAmText.text(localStorage.getItem("hour0"));
     tenAmText.text(localStorage.getItem("hour1"));
@@ -59,7 +59,7 @@ function init() {
 
 init()
 
-//Created variable to compare current hour of the day using dayjs and alter the CSS classes accordingly. 
+//For loop to compare current hour of the day using dayjs and alter the CSS classes accordingly. 
 var currentHour = dayjs().format('H');
 
 for (var i = 0; i < timeBlock.length; i++){

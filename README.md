@@ -6,23 +6,22 @@ I wanted to create a simple way to plan out my work day using a daily planner to
 
 ## Installation
 
-ADD LINK HERE!!
+ADD LINKS HERE!!
+GitHub link: https://github.com/ScottGCode/WorkDayScheduler
 
-This application will install and operate directly in your browser. Simply deploy the link above.
+This application will install and operate directly in your browser. Simply deploy the link above. Please click on the github link to view the code. Open index.html to view the HTML. Open styles.css to view the CSS. Open the script.js file to view the JavaScript used for this application.
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+Click the link above to view the deployed application. It will open the webpage up in your broswer then you will be able to view all the time blocks for the work day. You can enter data into a timeblock of your choice. When you are finished you can click on the save icon which is located on the right side of each timeblock to save your data entry. This will save your data using localStorage and make it available to you even if you navigate away from the web page. You will notice the timeblocks are color coded to reflect the current time of day which is displayed in the header using dayjs.
 
 ![Work Day Scheduler Screenshot](/assets/images/Screenshot%202023-09-22%20at%201.07.38%20PM.png)
 
 ## Credits
 
-University of Utah Coding Bootcamp Instructors and Teaching Assistants. W3 Schools. MDN Web Docs. jQuery documentation. Bootstrap documentation. Youtube Tutorials. GitHub repositories.
+University of Utah Coding Bootcamp Instructors and Teaching Assistants. W3 Schools. MDN Web Docs. jQuery documentation. Bootstrap documentation. Youtube Tutorials.
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
+https://www.youtube.com/playlist?list=PL0eyrZgxdwhy7byLHsVkuhtRV_IpoJU7n
 
 ## License
 
